@@ -1,6 +1,7 @@
 #pragma once
 
 #include <GameDev2D.h>
+#include "Timer.h"
 
 
 namespace GameDev2D
@@ -33,5 +34,9 @@ namespace GameDev2D
         SpriteAtlas* m_Mercury;
         SpriteAtlas* m_Sun;
         SpriteAtlas* m_Venus;
+
+        Polygon* m_EarthOrbit;
+
+        Timer m_Timer;
 	};
 }
